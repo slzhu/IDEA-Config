@@ -1,0 +1,85 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="CopyrightManager">
+        <LanguageOptions name="Lua">
+          <option name="fileTypeOverride" value="3" />
+          <option name="block" value="false" />
+          <option name="prefixLines" value="false" />
+          <option name="filler" value="=" />
+        </LanguageOptions>
+      </component>
+      <component name="EmacsSettings">
+        <option name="emacsPath" value="/usr/bin/emacs" />
+      </component>
+      <component name="InspectionProjectProfileManager">
+        <option name="PROJECT_PROFILE" />
+        <version value="1.0" />
+      </component>
+      <component name="ProjectInspectionProfilesVisibleTreeState">
+        <entry key="Project Default">
+          <profile-state>
+            <expanded-state>
+              <State>
+                <id />
+              </State>
+              <State>
+                <id>Data Flow IssuesLua</id>
+              </State>
+              <State>
+                <id>Lua</id>
+              </State>
+              <State>
+                <id>Method MetricsLua</id>
+              </State>
+              <State>
+                <id>Performance issuesLua</id>
+              </State>
+              <State>
+                <id>Probable bugsLua</id>
+              </State>
+              <State>
+                <id>Validity issuesLua</id>
+              </State>
+            </expanded-state>
+            <selected-state>
+              <State>
+                <id>Android</id>
+              </State>
+            </selected-state>
+          </profile-state>
+        </entry>
+      </component>
+      <component name="PropertiesComponent">
+        <property name="settings.editor.selected.configurable" value="com.sylvanaar.idea.Lua.options.LuaOptionsPanel" />
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="ProjectJDKs.UI">
+            <settings>
+              <last-edited>Erlang 20</last-edited>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+          <state key="ScopeChooserConfigurable.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
+      </component>
+    </defaultProject>
+  </component>
+</application>

@@ -1,6 +1,9 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="ansilog" type="ANSI Aware" />
+      <removed_mapping ext="log" type="ANSI Aware" />
+      <mapping ext="log" type="Log" />
       <mapping pattern="nginx.conf" type="nginx file type" />
     </extensionMap>
   </component>

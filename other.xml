@@ -1,0 +1,15 @@
+<application>
+  <component name="LuaApplicationSettings">
+    <option name="INCLUDE_ALL_FIELDS_IN_COMPLETIONS" value="true" />
+    <option name="INTERPRETERS">
+      <list>
+        <LuaInterpreter>
+          <option name="version" value="2.1.0-beta3" />
+          <option name="isDefault" value="true" />
+          <option name="name" value="LuaJIT" />
+          <option name="path" value="/usr/local/Cellar/openresty/1.11.2.5/luajit/bin/luajit" />
+        </LuaInterpreter>
+      </list>
+    </option>
+  </component>
+</application>

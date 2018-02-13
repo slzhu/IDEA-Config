@@ -1,4 +1,9 @@
 <code_scheme name="Default" version="173">
+  <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
+  <option name="ALIGN_CONSECUTIVE_VARIABLE_DECLARATIONS" value="true" />
+  <Lua>
+    <option name="ALIGN_TABLE_FIELD_ASSIGN" value="true" />
+  </Lua>
   <MarkdownNavigatorCodeStyleSettings>
     <option name="WRAP_ON_TYPING" value="0" />
     <option name="RIGHT_MARGIN" value="72" />

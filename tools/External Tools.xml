@@ -6,4 +6,11 @@
       <option name="WORKING_DIRECTORY" value="/usr/local/opt/luacheck/bin" />
     </exec>
   </tool>
+  <tool name="LuaJIT" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/local/Cellar/openresty/1.11.2.5/luajit/bin/luajit" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$Projectpath$" />
+    </exec>
+  </tool>
 </toolSet>

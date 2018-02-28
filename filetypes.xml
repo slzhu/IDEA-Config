@@ -1,6 +1,8 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="smf" type="XML" />
+      <mapping ext="manifest" type="XML" />
       <mapping pattern="nginx.conf" type="nginx file type" />
     </extensionMap>
   </component>

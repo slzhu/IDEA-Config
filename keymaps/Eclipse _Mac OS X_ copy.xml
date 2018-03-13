@@ -16,7 +16,8 @@
     <mouse-shortcut keystroke="control button1" />
     <keyboard-shortcut first-keystroke="alt 1" />
   </action>
-  <action id="RenameElement">
+  <action id="RefactoringMenuRenameFile">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
+  <action id="RenameElement" />
 </keymap>

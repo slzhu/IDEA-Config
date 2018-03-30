@@ -19,7 +19,4 @@
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
-  <action id="Replace">
-    <keyboard-shortcut first-keystroke="meta g" />
-  </action>
 </keymap>

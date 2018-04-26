@@ -1,9 +1,9 @@
 <code_scheme name="Default" version="173">
   <option name="RIGHT_MARGIN" value="80" />
-  <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
   <option name="FORMATTER_TAGS_ENABLED" value="true" />
+  <option name="FORMATTER_TAGS_ACCEPT_REGEXP" value="true" />
   <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
-  <option name="ALIGN_CONSECUTIVE_VARIABLE_DECLARATIONS" value="true" />
+  <option name="SOFT_MARGINS" value="120" />
   <Lua>
     <option name="ALIGN_TABLE_FIELD_ASSIGN" value="true" />
   </Lua>

@@ -15,4 +15,10 @@
     <variable name="return" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="-s" value="---S$STEP$: " description="---S1:" toReformat="false" toShortenFQNames="true">
+    <variable name="STEP" expression="" defaultValue="1" alwaysStopAt="true" />
+    <context>
+      <option name="LUA_FUNCTION" value="true" />
+    </context>
+  </template>
 </templateSet>

@@ -4,7 +4,9 @@
     <option name="luaCheckArgs" value="$FilePath$ --std ngx_lua --no-max-line-length --codes --globals ngx string" />
   </component>
   <component name="LuaSettings">
+    <option name="enableGeneric" value="true" />
     <option name="enforceTypeSafety" value="true" />
+    <option name="languageLevel" value="Lua 5.1" />
     <option name="nilStrict" value="true" />
     <option name="strictDoc" value="true" />
   </component>

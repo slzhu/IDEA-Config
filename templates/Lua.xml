@@ -21,4 +21,13 @@
       <option name="LUA_FUNCTION" value="true" />
     </context>
   </template>
+  <template name="class" value="---@class $classname$&#10;---@field $access$ $fieldname$ $fieldtype$&#10;local _M = {}&#10;&#10;local mt = {__index = _M}&#10;&#10;&#10;return _M&#10;" description="define class" toReformat="false" toShortenFQNames="true">
+    <variable name="classname" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="access" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fieldname" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fieldtype" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="LUA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>

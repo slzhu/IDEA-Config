@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="README" type="Markdown" />
+      <mapping ext="types" type="PLAIN_TEXT" />
       <mapping ext="smf" type="XML" />
       <mapping ext="manifest" type="XML" />
       <mapping pattern="nginx.conf" type="nginx file type" />

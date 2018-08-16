@@ -5,6 +5,7 @@
       <mapping ext="types" type="PLAIN_TEXT" />
       <mapping ext="smf" type="XML" />
       <mapping ext="manifest" type="XML" />
+      <mapping ext="example" type="lua" />
       <mapping pattern="nginx.conf" type="nginx file type" />
     </extensionMap>
   </component>

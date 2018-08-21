@@ -12,6 +12,10 @@
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
+  <action id="EditorToggleColumnMode">
+    <keyboard-shortcut first-keystroke="shift meta 8" />
+    <keyboard-shortcut first-keystroke="shift meta a" />
+  </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="meta f" />
   </action>

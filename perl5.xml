@@ -1,6 +1,6 @@
 <application>
   <component name="Perl5ApplicationSettings">
-    <option name="pluginVersion" value="2018.2.1" />
+    <option name="pluginVersion" value="2018.3.1" />
     <option name="popupShown" value="true" />
   </component>
   <component name="PerlInterpreters">
@@ -32,7 +32,11 @@
           <root type="composite" />
         </sourcePath>
       </roots>
-      <additional />
+      <additional>
+        <host id="localhost" />
+        <implementation id="porters" />
+        <versionManager id="system" />
+      </additional>
     </perl>
   </component>
 </application>

@@ -30,4 +30,13 @@
       <option name="LUA_CODE" value="true" />
     </context>
   </template>
+  <template name="cls" value="---@class $classname$&#10;---@field $access$ $fieldname$ $fieldtype$&#10;local $classname$ = {}&#10;" description="declear class" toReformat="false" toShortenFQNames="true">
+    <variable name="classname" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="access" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fieldname" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="fieldtype" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="LUA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>

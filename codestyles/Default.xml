@@ -1,10 +1,6 @@
 <code_scheme name="Default" version="173">
-  <option name="RIGHT_MARGIN" value="80" />
-  <option name="FORMATTER_TAGS_ENABLED" value="true" />
-  <option name="FORMATTER_TAGS_ACCEPT_REGEXP" value="true" />
   <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
   <option name="ALIGN_CONSECUTIVE_VARIABLE_DECLARATIONS" value="true" />
-  <option name="SOFT_MARGINS" value="120" />
   <Lua>
     <option name="ALIGN_TABLE_FIELD_ASSIGN" value="true" />
   </Lua>
@@ -44,10 +40,6 @@
     <indentOptions>
       <option name="INDENT_SIZE" value="4" />
     </indentOptions>
-  </codeStyleSettings>
-  <codeStyleSettings language="Lua">
-    <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
-    <option name="ALIGN_CONSECUTIVE_VARIABLE_DECLARATIONS" value="true" />
   </codeStyleSettings>
   <codeStyleSettings language="SASS">
     <indentOptions>

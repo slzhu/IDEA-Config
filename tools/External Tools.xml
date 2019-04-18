@@ -2,7 +2,7 @@
   <tool name="luacheck" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="/usr/local/opt/luacheck/bin/luacheck" />
-      <option name="PARAMETERS" value="$FilePath$ --std ngx_lua --no-max-line-length --codes --globals ngx string" />
+      <option name="PARAMETERS" value="$FilePath$" />
       <option name="WORKING_DIRECTORY" value="/usr/local/opt/luacheck/bin" />
     </exec>
   </tool>

@@ -50,6 +50,9 @@
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
+  <action id="RenameFile">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>

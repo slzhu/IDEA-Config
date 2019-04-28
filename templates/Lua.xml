@@ -46,4 +46,11 @@
       <option name="LUA_CODE" value="true" />
     </context>
   </template>
+  <template name="fun" value="function($parameters$)&#10;    $body$&#10;end" toReformat="false" toShortenFQNames="true">
+    <variable name="parameters" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="LUA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>

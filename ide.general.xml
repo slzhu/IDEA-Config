@@ -8,5 +8,6 @@
     <entry key="debugger.watches.in.variables" value="false" />
     <entry key="tabs.alphabetical" value="true" />
     <entry key="git.explicit.commit.renames.prohibit.multiple.calls" value="false" />
+    <entry key="ide.tooltip.initialDelay" value="593" />
   </component>
 </application>

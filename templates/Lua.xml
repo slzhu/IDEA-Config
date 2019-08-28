@@ -39,4 +39,11 @@
       <option name="LUA_CODE" value="true" />
     </context>
   </template>
+  <template name="while" value="while $condition$ do&#10;    $state$&#10;end" description="while expr do end" toReformat="false" toShortenFQNames="true">
+    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="state" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="LUA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>

@@ -6,6 +6,7 @@
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
       <map>
+        <entry key="HTML" value="true" />
         <entry key="Lua" value="true" />
       </map>
     </option>

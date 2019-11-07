@@ -62,7 +62,7 @@
   </action>
   <action id="QuickChangeScheme" />
   <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="alt r" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="alt p" />

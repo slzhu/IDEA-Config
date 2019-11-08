@@ -30,6 +30,9 @@
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
+  <action id="EditorResetFontSize">
+    <keyboard-shortcut first-keystroke="ctrl 0" />
+  </action>
   <action id="EditorToggleColumnMode">
     <keyboard-shortcut first-keystroke="shift meta 8" />
     <keyboard-shortcut first-keystroke="shift meta a" />
@@ -49,6 +52,7 @@
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="meta back_quote" />
   </action>
+  <action id="GotoBookmark0" />
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="meta t" />
   </action>

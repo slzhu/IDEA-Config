@@ -4,6 +4,11 @@
     <option name="luaCheckArgs" value="$FilePath$ --std ngx_lua --no-max-line-length --codes --globals ngx string" />
   </component>
   <component name="LuaSettings">
+    <option name="additionalSourcesRoot">
+      <array>
+        <option value="/Volumes/code/lua-resty-emmy/resty" />
+      </array>
+    </option>
     <option name="enableGeneric" value="true" />
     <option name="enforceTypeSafety" value="true" />
     <option name="languageLevel" value="Lua 5.1" />

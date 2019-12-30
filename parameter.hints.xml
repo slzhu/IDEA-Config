@@ -10,6 +10,7 @@
     <option id="lua.hints.show_parameter_type" value="true" />
     <disabledLanguages>
       <language id="JAVA" />
+      <language id="Lua" />
     </disabledLanguages>
   </component>
 </application>

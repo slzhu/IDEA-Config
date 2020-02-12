@@ -1,12 +1,12 @@
 <application>
   <component name="FindSettings">
     <option name="caseSensitive" value="true" />
-    <option name="customScope" value="Project 'lua-resty-http'" />
-    <option name="defaultScopeName" value="Project 'lua-resty-http'" />
+    <option name="customScope" value="File '.../lib/iresty/http.lua'" />
+    <option name="defaultScopeName" value="File '.../lib/iresty/http.lua'" />
     <option name="wholeWordsOnly" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'lua-resty-http'" />
+    <option name="SEARCH_SCOPE" value="File '.../lib/iresty/http.lua'" />
     <option name="FILE_MASK" value="*.lua" />
     <mask>*.css</mask>
     <mask>*.html</mask>

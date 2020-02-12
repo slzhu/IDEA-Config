@@ -64,6 +64,9 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
+  <action id="InspectCode">
+    <keyboard-shortcut first-keystroke="alt i" />
+  </action>
   <action id="QuickChangeScheme" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="ctrl r" />

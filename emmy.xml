@@ -6,7 +6,10 @@
   <component name="LuaSettings">
     <option name="additionalSourcesRoot">
       <array>
-        <option value="/Volumes/code/lua-resty-emmy/resty" />
+        <option value="/Volumes/code/lua-resty-emmy" />
+        <option value="/usr/local/share/lua/5.1" />
+        <option value="/usr/local/Cellar/openresty/1.15.8.2/lualib" />
+        <option value="/usr/local/Cellar/openresty/1.15.8.2/site/lualib" />
       </array>
     </option>
     <option name="enableGeneric" value="true" />

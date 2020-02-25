@@ -10,7 +10,6 @@
   </Lua>
   <MarkdownNavigatorCodeStyleSettings>
     <option name="WRAP_ON_TYPING" value="0" />
-    <option name="RIGHT_MARGIN" value="72" />
   </MarkdownNavigatorCodeStyleSettings>
   <codeStyleSettings language="CoffeeScript">
     <indentOptions>
@@ -48,7 +47,6 @@
   <codeStyleSettings language="Lua">
     <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
     <option name="ALIGN_CONSECUTIVE_VARIABLE_DECLARATIONS" value="true" />
-    <option name="SOFT_MARGINS" value="120" />
   </codeStyleSettings>
   <codeStyleSettings language="SASS">
     <indentOptions>

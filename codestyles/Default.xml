@@ -45,7 +45,6 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="Lua">
-    <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
     <option name="ALIGN_CONSECUTIVE_VARIABLE_DECLARATIONS" value="true" />
   </codeStyleSettings>
   <codeStyleSettings language="SASS">

@@ -11,6 +11,10 @@
   <MarkdownNavigatorCodeStyleSettings>
     <option name="WRAP_ON_TYPING" value="0" />
   </MarkdownNavigatorCodeStyleSettings>
+  <Shell_Script>
+    <option name="SWITCH_CASES_INDENTED" value="true" />
+    <option name="REDIRECT_FOLLOWED_BY_SPACE" value="true" />
+  </Shell_Script>
   <codeStyleSettings language="CoffeeScript">
     <indentOptions>
       <option name="INDENT_SIZE" value="4" />
@@ -56,6 +60,12 @@
   <codeStyleSettings language="SCSS">
     <indentOptions>
       <option name="INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Shell Script">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+      <option name="TAB_SIZE" value="4" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="yaml">

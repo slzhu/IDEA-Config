@@ -7,12 +7,9 @@
     <perl version="2">
       <name value="Perl v5.18.2" />
       <type value="Perl5 Interpreter" />
-      <version value="v5.18.2 for darwin-thread-multi-2level" />
-      <homePath value="/usr/bin" />
+      <version value="5.18.4 for darwin-thread-multi-2level" />
+      <homePath value="/usr/bin/perl" />
       <roots>
-        <annotationsPath>
-          <root type="composite" />
-        </annotationsPath>
         <classPath>
           <root type="composite">
             <root url="file:///Library/Perl/5.18/darwin-thread-multi-2level" type="simple" />
@@ -25,9 +22,6 @@
             <root url="file:///System/Library/Perl/Extras/5.18" type="simple" />
           </root>
         </classPath>
-        <javadocPath>
-          <root type="composite" />
-        </javadocPath>
         <sourcePath>
           <root type="composite" />
         </sourcePath>

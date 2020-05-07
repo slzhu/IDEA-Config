@@ -10,6 +10,7 @@
   </Lua>
   <MarkdownNavigatorCodeStyleSettings>
     <option name="WRAP_ON_TYPING" value="0" />
+    <option name="SMART_EDIT_TABLES" value="true" />
   </MarkdownNavigatorCodeStyleSettings>
   <Shell_Script>
     <option name="SWITCH_CASES_INDENTED" value="true" />

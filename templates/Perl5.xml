@@ -1,8 +1,6 @@
 <templateSet group="Perl5">
   <template name="sql" value="my $query = &lt;&lt;'SQL';&#10;    $END$&#10;SQL&#10;" description="query" toReformat="true" toShortenFQNames="true" deactivated="true">
-    <context>
-      <option name="SQL" value="false" />
-    </context>
+    <context />
   </template>
   <template name="do" value="do&#10;{&#10;    $SELECTION$$END$&#10;} " description="do block" toReformat="true" toShortenFQNames="true" deactivated="true" />
   <template name="if" value="if ($CONDITION$)&#10;{&#10;    $SELECTION$$END$&#10;}" description="if block" toReformat="true" toShortenFQNames="true" deactivated="true">

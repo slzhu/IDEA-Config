@@ -12,7 +12,6 @@
   </component>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="15" />
-    <option name="FONT_FAMILY" value="JetBrains Mono" />
     <option name="SECONDARY_FONT_FAMILY" value="Courier New" />
   </component>
   <component name="EditorSettings">

@@ -3,8 +3,8 @@
     <extensionMap>
       <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern="README" type="Markdown" />
-      <mapping ext="types" type="PLAIN_TEXT" />
       <mapping ext="7z" type="PLAIN_TEXT" />
+      <mapping ext="types" type="PLAIN_TEXT" />
       <mapping ext="manifest" type="XML" />
       <mapping ext="smf" type="XML" />
       <mapping ext="example" type="lua" />

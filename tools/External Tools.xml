@@ -1,14 +1,14 @@
 <toolSet name="External Tools">
-  <tool name="luacheck" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="luacheck" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="/usr/local/opt/luacheck/bin/luacheck" />
-      <option name="PARAMETERS" value="$FilePath$ --std ngx_lua --no-max-line-length --codes --globals ngx string" />
+      <option name="PARAMETERS" value="$FilePath$ -r --std ngx_lua --no-max-line-length --codes --globals ngx string" />
       <option name="WORKING_DIRECTORY" value="/usr/local/opt/luacheck/bin" />
     </exec>
   </tool>
-  <tool name="LuaJIT" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="LuaJIT" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="/usr/local/Cellar/openresty/1.11.2.5/luajit/bin/luajit" />
+      <option name="COMMAND" value="/usr/local/Cellar/openresty/1.17.8.1/luajit/bin/luajit-2.1.0-beta3" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$Projectpath$" />
     </exec>
@@ -18,6 +18,13 @@
       <option name="COMMAND" value="/bin/rm" />
       <option name="PARAMETERS" value="$FilePath$" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="tsclua" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/local/opt/tsc/tsclua" />
+      <option name="PARAMETERS" value="$FilePath$" />
+      <option name="WORKING_DIRECTORY" value="/usr/local/opt/tsc" />
     </exec>
   </tool>
 </toolSet>

@@ -4,8 +4,8 @@
       <mapping ext="klib" type="ARCHIVE" />
       <mapping ext="7z" type="PLAIN_TEXT" />
       <mapping ext="types" type="PLAIN_TEXT" />
-      <mapping ext="smf" type="XML" />
       <mapping ext="manifest" type="XML" />
+      <mapping ext="smf" type="XML" />
       <mapping ext="example" type="lua" />
       <mapping ext="conf" type="nginx" />
       <mapping ext="conf" type="nginx file type" />

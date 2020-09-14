@@ -28,6 +28,7 @@
   <action id="ConvertIndentsToSpaces">
     <keyboard-shortcut first-keystroke="shift space" />
   </action>
+  <action id="Diff.ShowSettingsPopup" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
   <action id="EditorDecreaseFontSize">
@@ -82,8 +83,14 @@
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
   <action id="RunToCursor" />
+  <action id="SearchAction">
+    <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
   <action id="SetShortcutAction" />
   <action id="ShowIntentionActions" />
+  <action id="SmartSearchAction">
+    <keyboard-shortcut first-keystroke="shift meta alt d" />
+  </action>
   <action id="ViewToolBar">
     <keyboard-shortcut first-keystroke="alt q" />
   </action>

@@ -75,6 +75,9 @@
   <action id="InspectCode">
     <keyboard-shortcut first-keystroke="alt i" />
   </action>
+  <action id="NextDiff">
+    <keyboard-shortcut first-keystroke="shift meta n" />
+  </action>
   <action id="QuickChangeScheme" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="ctrl r" />

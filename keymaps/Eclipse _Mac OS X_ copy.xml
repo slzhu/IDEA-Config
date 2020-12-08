@@ -1,19 +1,7 @@
 <keymap version="1" name="Eclipse (Mac OS X) copy" parent="Eclipse (Mac OS X)">
-  <action id="ActivateProjectToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl back_quote" />
-  </action>
-  <action id="ActivateServicesToolWindow" />
-  <action id="ActivateStructureToolWindow">
-    <keyboard-shortcut first-keystroke="alt back_quote" />
-  </action>
-  <action id="ActivateTODOToolWindow">
-    <keyboard-shortcut first-keystroke="meta 3" />
-  </action>
   <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="meta 1" />
-  </action>
-  <action id="ActivateVersionControlToolWindow">
-    <keyboard-shortcut first-keystroke="meta 2" />
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="ctrl back_quote" />
   </action>
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="ctrl space" />
@@ -28,17 +16,11 @@
   <action id="ConvertIndentsToSpaces">
     <keyboard-shortcut first-keystroke="shift space" />
   </action>
-  <action id="Diff.ShowSettingsPopup" />
-  <action id="DuplicatesForm.SendToLeft" />
-  <action id="DuplicatesForm.SendToRight" />
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl equals" />
-  </action>
-  <action id="EditorResetFontSize">
-    <keyboard-shortcut first-keystroke="ctrl 0" />
   </action>
   <action id="EditorToggleColumnMode">
     <keyboard-shortcut first-keystroke="shift meta 8" />
@@ -50,17 +32,9 @@
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
-  <action id="FileChooser.GotoHome" />
-  <action id="FileChooser.GotoModule" />
-  <action id="FileChooser.GotoProject" />
   <action id="Find">
     <keyboard-shortcut first-keystroke="meta f" />
   </action>
-  <action id="GotoAction">
-    <keyboard-shortcut first-keystroke="meta back_quote" />
-  </action>
-  <action id="GotoBookmark0" />
-  <action id="GotoBookmark1" />
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
@@ -72,29 +46,12 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
-  <action id="InspectCode">
-    <keyboard-shortcut first-keystroke="alt i" />
-  </action>
-  <action id="NextDiff">
-    <keyboard-shortcut first-keystroke="shift meta n" />
-  </action>
   <action id="QuickChangeScheme" />
   <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="ctrl r" />
+    <keyboard-shortcut first-keystroke="alt r" />
   </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
   <action id="RunToCursor" />
-  <action id="SearchAction">
-    <keyboard-shortcut first-keystroke="shift meta d" />
-  </action>
-  <action id="SetShortcutAction" />
-  <action id="ShowIntentionActions" />
-  <action id="SmartSearchAction">
-    <keyboard-shortcut first-keystroke="shift meta alt d" />
-  </action>
-  <action id="ViewToolBar">
-    <keyboard-shortcut first-keystroke="alt q" />
-  </action>
 </keymap>

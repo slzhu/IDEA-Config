@@ -1,0 +1,39 @@
+<templateSet group="Perl5: POD">
+  <template name="h1" value="=head1 $TEXT$&#10;&#10;$END$&#10;" description="=head1" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="TEXT" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="h2" value="=head2 $TEXT$&#10;&#10;$END$&#10;" description="=head2" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="TEXT" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="at" value="=attr $TEXT$&#10;&#10;$END$&#10;" description="=head2" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="TEXT" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="fu" value="=func $TEXT$&#10;&#10;$END$&#10;" description="=head2" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="TEXT" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="me" value="=method $TEXT$&#10;&#10;$END$&#10;" description="=head2" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="TEXT" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="h3" value="=head3 $TEXT$&#10;&#10;$END$&#10;" description="=head3" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="TEXT" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="h4" value="=head4 $TEXT$&#10;&#10;$END$&#10;" description="=head4" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="TEXT" expression="&quot;title&quot;" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="ov" value="=over $LEVEL$&#10;&#10;$SELECTION$$END$&#10;&#10;=back&#10;" description="=over ... =back" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="LEVEL" expression="&quot;1&quot;" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="be" value="=begin $FORMAT$ &#10;&#10;$SELECTION$$END$&#10;&#10;=end $FORMAT$&#10;" description="=begin ... =end" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="FORMAT" expression="&quot;html&quot;" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="fo" value="=for $FORMAT$ $END$ &#10;" description="=for" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="FORMAT" expression="&quot;html&quot;" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="en" value="=encoding $ENCODING$ &#10;" description="=encoding" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="ENCODING" expression="" defaultValue="&quot;utf8&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="it" value="=item $TEXT$ &#10;&#10;$END$&#10;" description="=item" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="TEXT" expression="&quot;*&quot;" defaultValue="&quot;title&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="itb" value="=item *&#10;&#10;$END$ &#10;" description="=item *" toReformat="true" toShortenFQNames="true" deactivated="true" />
+</templateSet>

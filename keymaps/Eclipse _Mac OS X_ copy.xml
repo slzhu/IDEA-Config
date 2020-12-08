@@ -1,7 +1,26 @@
 <keymap version="1" name="Eclipse (Mac OS X) copy" parent="Eclipse (Mac OS X)">
-  <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="alt f12" />
+  <action id="ActivateCommitToolWindow" />
+  <action id="ActivateProblemsViewToolWindow">
+    <keyboard-shortcut first-keystroke="meta 5" />
+  </action>
+  <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
+  </action>
+  <action id="ActivateServicesToolWindow" />
+  <action id="ActivateStatisticToolWindow">
+    <keyboard-shortcut first-keystroke="meta 4" />
+  </action>
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl 1" />
+  </action>
+  <action id="ActivateTODOToolWindow">
+    <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="meta 1" />
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2" />
   </action>
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="ctrl space" />
@@ -16,6 +35,8 @@
   <action id="ConvertIndentsToSpaces">
     <keyboard-shortcut first-keystroke="shift space" />
   </action>
+  <action id="DuplicatesForm.SendToLeft" />
+  <action id="DuplicatesForm.SendToRight" />
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
@@ -32,9 +53,14 @@
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
+  <action id="FileChooser.GotoHome" />
+  <action id="FileChooser.GotoModule" />
+  <action id="FileChooser.GotoProject" />
   <action id="Find">
     <keyboard-shortcut first-keystroke="meta f" />
   </action>
+  <action id="GotoAction" />
+  <action id="GotoBookmark1" />
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
@@ -54,4 +80,6 @@
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
   <action id="RunToCursor" />
+  <action id="SetShortcutAction" />
+  <action id="ShowIntentionActions" />
 </keymap>
